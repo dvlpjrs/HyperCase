@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SfProRounded";
+  src: url("../assets/fonts/SfProRounded.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SfProDisplay";
+  src: url("../assets/fonts/SFPRODISPLAYREGULAR.OTF") format("openType");
+}
