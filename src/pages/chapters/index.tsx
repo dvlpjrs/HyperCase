@@ -2,7 +2,7 @@ import { HeroSection } from "../../components/HeroSection";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
 import HeroImage from "~/../public/heroLight.png";
-import { ApplySection } from "~/components/StartABranchPage/ApplySection";
+import { ApplySection } from "~/components/Chapters/ApplySection";
 
 const StartABranch = () => {
   return (
@@ -12,13 +12,14 @@ const StartABranch = () => {
         <HeroSection
           title={
             <>
-              Start branch
+              Start a branch
               <br />
               At you college
             </>
           }
           image={HeroImage}
           className="bg-decorativeSecondary"
+          subTitle="Join the HyperCase Club"
         />
         <ApplySection />
         <Footer />

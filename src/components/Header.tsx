@@ -9,7 +9,7 @@ const pages = [
   "HyperDatabase",
   "Events",
   "HyperNetwork",
-  "Start a Branch",
+  "Chapters",
 ] as const;
 
 export const Header = () => {
@@ -24,8 +24,8 @@ export const Header = () => {
       case "/":
         setCurrentPage("Home");
         break;
-      case "/start-a-branch":
-        setCurrentPage("Start a Branch");
+      case "/chapters":
+        setCurrentPage("Chapters");
         break;
       default:
         break;
@@ -37,8 +37,8 @@ export const Header = () => {
       case "Home":
         void router.push("/");
         break;
-      case "Start a Branch":
-        void router.push("/start-a-branch");
+      case "Chapters":
+        void router.push("/chapters");
         break;
       default:
         break;
