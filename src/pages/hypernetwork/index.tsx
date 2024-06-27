@@ -1,7 +1,7 @@
 import { HeroSection } from "../../components/HeroSection";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
-import HeroImage from "~/../public/heroPink.svg";
+import HeroImage from "~/../public/heroPink.png";
 
 const HyperNetwork = () => {
   return (
