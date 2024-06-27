@@ -27,6 +27,7 @@ export default function Home() {
             }
             image={HeroImage}
             className="bg-decorative"
+            subTitle="Making game-changing biomedical technology"
           />
           <AboutUsSection />
           <FeaturedProjectsSection />

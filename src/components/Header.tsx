@@ -6,9 +6,9 @@ import { useRouter } from "next/router";
 
 const pages = [
   "Home",
-  "Projects",
-  "Events",
   "HyperDatabase",
+  "Events",
+  "HyperNetwork",
   "Start a Branch",
 ] as const;
 

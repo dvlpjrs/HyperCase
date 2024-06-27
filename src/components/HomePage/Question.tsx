@@ -19,7 +19,7 @@ export const Question = ({ question, answer }: QuestionProps) => {
       }}
     >
       <div className="relative">
-        <div className="w-9/12 font-sfProDisplay text-2xl">{question}</div>
+        <div className="w-9/12 font-sfProDisplay text-xl">{question}</div>
         <Image
           src={ArrowIcon as StaticImport}
           alt=""
@@ -27,7 +27,7 @@ export const Question = ({ question, answer }: QuestionProps) => {
         />
       </div>
       {isOpen && (
-        <div className="min-h-fit font-sfProRounded text-lg text-secondary">
+        <div className="min-h-fit pt-4 font-sfProRounded text-lg text-secondary">
           {answer}
         </div>
       )}

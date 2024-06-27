@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Project 1",
-    subtitle: "Fugiat fugiat eiusmod dolor. Et mollit nostrud aliqua sint",
+    title: "Ergonixx",
+    subtitle: "Ergonomic augment for the endoscope",
     description:
-      "Fugiat fugiat eiusmod dolor. Et mollit nostrud aliqua sint incididunt ullamco aliquip. Proident nostrud reprehenderit ut dolor proident quis fugiat et consectetur veniam magna incididunt mollit. Deserunt Lorem Lorem do. Nulla consectetur sunt aute do tempor anim ex.",
-    image: "",
+      "The project focuses on addressing the ergonomic challenges faced by endoscopists, who often suffer from musculoskeletal pain and have to modify techniques due to endoscope design limitations. The innovative solution, Ergonixx Rings, is designed to be easily manipulated by a wide range of hand sizes, from the smallest 5% of females to the largest 95% of males, and aims to reduce hand strain while being quick to assemble. The target market is substantial, with a Total Addressable Market (TAM) of $32.3 billion and a fast-growing sector. The team comprises experienced professionals in medicine, engineering, and business, with a clear go-to-market strategy laid out from 2024 to 2026.",
+    image: "/landing/project-featured.jpg",
   },
 ];
 
 export const FeaturedProjectsSection = () => (
   <section className="rounded-[30px] border-2 border-border font-sfProDisplay">
-    <div className="flex items-center justify-between border-b-2 border-border p-8 py-5 pr-[37px] text-2xl font-normal tracking-tight md:pb-16 lg:pl-[58px]">
+    <div className="flex items-center justify-between border-b-2 border-border p-8 py-5 pr-[37px] text-2xl font-normal tracking-tight  lg:pl-[58px]">
       Featured Projects
-      <button className="whitespace-nowrap rounded-full border-2 border-border px-5 py-[7px] text-lg lg:px-[34px] lg:text-2xl">
+      <button className="whitespace-nowrap rounded-full border-2 border-border px-5 py-[7px] text-lg lg:px-[20px] lg:text-xl">
         View All
       </button>
     </div>
@@ -28,15 +28,17 @@ export const FeaturedProjectsSection = () => (
             src={project.image}
             alt={project.title}
             className="h-[200px] w-[200px] rounded-[20px] bg-imageBg lg:h-[400px] lg:min-w-[400px]"
+            width={200}
+            height={200}
           />
-          <div className="flex max-w-[761px] flex-col gap-y-5">
-            <h2 className="text-2xl font-bold leading-7 tracking-wide">
+          <div className="flex max-w-[761px] flex-col gap-y-1">
+            <h2 className="text-2xl font-bold tracking-normal">
               {project.title}
             </h2>
-            <div className="text-base font-normal leading-5">
+            <div className="text-xl font-bold text-secondary">
               {project.subtitle}
             </div>
-            <div className="text-base font-normal leading-5">
+            <div className="pt-4 text-xl text-secondary">
               {project.description}
             </div>
           </div>
