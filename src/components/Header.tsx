@@ -27,6 +27,15 @@ export const Header = () => {
       case "/chapters":
         setCurrentPage("Chapters");
         break;
+      case "/events":
+        setCurrentPage("Events");
+        break;
+      case "/hyperdatabase":
+        setCurrentPage("HyperDatabase");
+        break;
+      case "/hypernetwork":
+        setCurrentPage("HyperNetwork");
+        break;
       default:
         break;
     }
@@ -39,6 +48,15 @@ export const Header = () => {
         break;
       case "Chapters":
         void router.push("/chapters");
+        break;
+      case "Events":
+        void router.push("https://community.case.edu/events?group_ids=70270");
+        break;
+      case "HyperDatabase":
+        void router.push("/hyperdatabase");
+        break;
+      case "HyperNetwork":
+        void router.push("/hypernetwork");
         break;
       default:
         break;

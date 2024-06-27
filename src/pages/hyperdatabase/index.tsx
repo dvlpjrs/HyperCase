@@ -1,11 +1,9 @@
 import { HeroSection } from "../../components/HeroSection";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
-import HeroImage from "~/../public/heroLight.png";
-import { FAQSection } from "~/components/HomePage/FAQSection";
-import { ApplySection } from "~/components/Chapters/ApplySection";
+import HeroImage from "~/../public/heroPink.png";
 
-const StartABranch = () => {
+const HyperDatabase = () => {
   return (
     <div className="min-h-screen w-screen bg-background px-8 xl:px-24">
       <Header />
@@ -13,17 +11,15 @@ const StartABranch = () => {
         <HeroSection
           title={
             <>
-              Start a branch
+              Explore All Projects
               <br />
-              At you college
+              At HyperCase
             </>
           }
           image={HeroImage}
-          className="bg-decorativeSecondary"
-          subTitle="Join the HyperCase Club"
+          className="bg-decorativeTertiary"
+          subTitle="Coming Soon!"
         />
-        <ApplySection />
-        <FAQSection />
         <Footer />
         <div />
       </main>
@@ -31,4 +27,4 @@ const StartABranch = () => {
   );
 };
 
-export default StartABranch;
+export default HyperDatabase;

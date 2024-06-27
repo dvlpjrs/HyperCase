@@ -13,6 +13,7 @@ export default {
         secondary: "hsla(205, 17%, 25%, 1)",
         decorative: "hsla(205, 100%, 91%, 1)",
         decorativeSecondary: "hsla(210, 29%, 97%, 1)",
+        decorativeTertiary: "	hsl(269, 100%, 92%, 1)",
         foreground: "hsla(234, 15%, 25%, 1)",
         secondaryForeground: "hsla(0, 2%, 55%, 1)",
         border: "hsla(220, 17%, 93%, 1)",
