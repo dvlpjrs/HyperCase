@@ -1,7 +1,7 @@
 import { HeroSection } from "../../components/HeroSection";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
-import HeroImage from "~/../public/heroPink.png";
+import HeroImage from "~/../public/HyperCase Circle Icon OnWhite.png";
 
 const HyperDatabase = () => {
   return (
@@ -11,9 +11,9 @@ const HyperDatabase = () => {
         <HeroSection
           title={
             <>
-              Explore All Projects
+              Explore a Database of Clinical Needs
               <br />
-              At HyperCase
+              Verified by Doctors
             </>
           }
           image={HeroImage}

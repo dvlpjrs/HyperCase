@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import HyperCaseLogo from "~/../public/HyperCaseLogo.svg";
+import HyperCaseCircleIcon from "~/../public/HyperCaseCircleIcon.svg";
 import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { useRouter } from "next/router";
 

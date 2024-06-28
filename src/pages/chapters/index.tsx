@@ -1,7 +1,7 @@
 import { HeroSection } from "../../components/HeroSection";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
-import HeroImage from "~/../public/heroLight.png";
+import HeroImage from "~/../public/HyperCase Circle Icon OnWhite.png";
 import { FAQSection } from "~/components/HomePage/FAQSection";
 import { ApplySection } from "~/components/Chapters/ApplySection";
 
@@ -20,7 +20,7 @@ const StartABranch = () => {
           }
           image={HeroImage}
           className="bg-decorativeSecondary"
-          subTitle="Join the HyperCase Club"
+          subTitle="Join HyperCase"
         />
         <ApplySection />
         <FAQSection />
