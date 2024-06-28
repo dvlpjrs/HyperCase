@@ -4,9 +4,10 @@ import { AboutUsSection } from "../components/HomePage/AboutUsSection";
 import { FeaturedProjectsSection } from "../components/HomePage/FeaturedProjectsSection";
 import { CurrentBoardSection } from "../components/HomePage/CurrentBoardSection";
 import { FAQSection } from "../components/HomePage/FAQSection";
+import { PhasesSection } from "../components/HomePage/PhasesSection";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
-import HeroImage from "~/../public/hero.png";
+import HeroImage from "~/../public/HyperCase Circle Icon OnWhite.png";
 
 export default function Home() {
   return (
@@ -27,10 +28,11 @@ export default function Home() {
             }
             image={HeroImage}
             className="bg-decorative"
-            subTitle="Making game-changing biomedical technology"
+            subTitle="A healthcare startup incubator solving problems one HyperCase at a time"
           />
           <AboutUsSection />
-          <FeaturedProjectsSection />
+          <PhasesSection />
+          {/* <FeaturedProjectsSection /> */}
           <CurrentBoardSection />
           <FAQSection />
           <Footer />

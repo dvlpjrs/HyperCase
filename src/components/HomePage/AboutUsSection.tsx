@@ -7,7 +7,7 @@ export const AboutUsSection = () => (
     <div className="min-h-full w-full whitespace-nowrap border-b-2 border-r-0 border-border px-8 py-7 font-sfProDisplay text-2xl tracking-normal md:pb-16 md:pr-64 lg:w-2/5 lg:border-b-0 lg:border-r-2 lg:pl-[58px]">
       About Us
     </div>
-    <div className="p-8 pb-11 pt-7 text-xl  tracking-tight text-secondary md:pb-16 lg:mx-[42px]">
+    <div className="p-8 pb-11 pt-7  text-xl tracking-tight text-secondary md:pb-16 lg:mx-[42px]">
       HyperCase is a student-led incubator aimed at solving healthcare
       challenges through inter-professional and interdisciplinary collaboration.
       We bring together student doctors, engineers, entrepreneurs, scientists,
@@ -18,7 +18,7 @@ export const AboutUsSection = () => (
       on and beyond the campus of Case Western Reserve University by helping
       participants develop problem-solving and collaborative mindsets with
       concrete real-world outcomes.
-      <div className="mt-[50px] flex justify-center">
+      <div className=" mt-[50px] flex justify-center">
         <Image
           src={team as StaticImport}
           alt="Team"
